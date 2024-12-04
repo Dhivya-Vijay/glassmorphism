@@ -1,0 +1,168 @@
+body{
+    background-image: url(./assets/image/bgImage1.svg);
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #ffff;
+}
+
+.threeCard {
+    /* background-color: azure; */
+    margin-top: 8rem;
+}
+
+.threeCardBody {
+    /* background-color: #b30d6e; */
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.decide {
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #0072C6; */
+    background-color: rgba(225,225,225,0.1);
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 28%;
+    position: relative;
+}
+
+.cardNumber1 {
+    background-color: #fff;
+    color: #0072C6;
+    position: absolute;
+    top: -5rem;
+    left: 17.5rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.decide h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: 'Nexa', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.decide p {
+    /* background-color: #ff6347; */
+    font-family: 'FuturaPT-Book', serif;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.plan {
+    /* background-color: #fff; */
+    background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 28%;
+    position: relative;
+
+}
+
+.plan h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: 'Nexa', sans-serif;
+    font-size: 3.1rem;
+    text-align: center;
+    color: #040c26;
+}
+
+.plan p {
+    /* background-color: #ff6347; */
+    font-family: 'FuturaPT-Book', serif;
+    color: #040c26;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.review {
+    /* background-color: #fff; */
+    background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 28%;
+    position: relative;
+}
+
+.review h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: 'Nexa', sans-serif;
+    font-size: 3.1rem;
+    text-align: center;
+    color: #040c26;
+}
+
+.review p {
+    /* background-color: #ff6347; */
+    font-family: 'FuturaPT-Book', serif;
+    color: #040c26;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.cardNumber2 {
+    background-color: #0072c6;
+    color: #fff;
+    position: absolute;
+    top: -5rem;
+    left: 17.5rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.card{
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+    border-top-color: rgb(225,225,225,0.5);
+    border-left-color: rgb(225,225,225,0.5);
+    border-bottom-color: rgb(225,225,225,0.5);
+    border-right-color: rgb(225,225,225,0.5);
+}
